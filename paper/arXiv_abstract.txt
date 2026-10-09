@@ -1,0 +1,23 @@
+================================================================================
+ARXIV SUBMISSION METADATA & ABSTRACT (PLAIN TEXT)
+================================================================================
+
+TITLE:
+Quantifying Safety Guardrail Degradation in Autonomous Multi-Agent Workflows Under Goal-Divergence Scenarios
+
+AUTHORS:
+Talha Waris
+
+PRIMARY SUBJECT CATEGORY:
+cs.AI (Artificial Intelligence)
+
+CROSS-LISTED CATEGORIES:
+cs.SE (Software Engineering)
+cs.CR (Cryptography and Security)
+
+COMMENTS:
+10 pages, 4 figures, IEEE Conference format. Benchmark dataset and evaluation code publicly released at https://github.com/talha-waris/ai-agent-guardrail-benchmark
+
+ABSTRACT:
+As large language model (LLM) agents are increasingly organized into autonomous multi-agent workflows executing code, interacting with shells, and coordinating complex tasks, their operational safety depends heavily on guardrail mechanisms. However, when agents experience goal-divergence---scenarios where task execution pressures, environmental errors, or urgent operational sub-goals conflict with negative safety invariants---behavioral alignment frequently degrades. In this paper, we present an empirical investigation quantifying safety guardrail degradation across autonomous agent architectures. We formulate a formal state-transition framework under constrained optimization and evaluate models across 20 deterministic scenarios spanning four primary failure modes: System-Prompt Override, Tool Misuse and Privilege Escalation, Self-Preservation and Shutdown Refusal, and Context Window Guardrail Decay. We benchmark frontier commercial and open-weights model classes across three defense tiers: unconstrained baseline (None), system prompt deontic enforcement (Soft), and an integrated dual-layer architecture combining prompt enforcement with deterministic Abstract Syntax Tree (AST) and shell regex filters (Dual). Across 180 structured evaluations, unprotected baselines exhibit a mean Safety Failure Rate (SFR) of 65.0%, with multi-turn context decay demonstrating extreme vulnerability (93.3% failure rate). While soft guardrails reduce violations on isolated tasks, they decay substantially across multi-turn workflows. In contrast, our deterministic hard guardrail achieves 100% pre-execution interception efficiency, completely neutralizing prohibited actions without sacrificing safe task completion (achieving 70.0% Constraint Alignment Index). Our findings demonstrate that soft semantic alignment is insufficient for autonomous systems, necessitating out-of-band deterministic enforcement.
+================================================================================
