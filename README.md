@@ -1,8 +1,9 @@
 # Quantifying Safety Guardrail Degradation in Autonomous Multi-Agent Workflows Under Goal-Divergence Scenarios
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23200414-blue.svg)](https://doi.org/10.5281/zenodo.23200414)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![Paper: arXiv / IEEE](https://img.shields.io/badge/Paper-arXiv%20cs.AI-red.svg)](paper/main.tex)
+[![Paper: Zenodo Open Science](https://img.shields.io/badge/Paper-Zenodo%20CERN-red.svg)](https://doi.org/10.5281/zenodo.23200414)
 [![Reproducibility: 100%](https://img.shields.io/badge/Reproducibility-100%25%20Verified-brightgreen.svg)](scripts/run_benchmark.py)
 [![Test Suite](https://img.shields.io/badge/Tests-8%2F8%20Passing-brightgreen.svg)](tests/test_benchmark.py)
 [![arXiv Submission](https://img.shields.io/badge/arXiv%20Bundle-Ready%20(392%20KB)-orange.svg)](paper/arxiv_submission.tar.gz)
