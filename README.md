@@ -1,9 +1,9 @@
 # Quantifying Safety Guardrail Degradation in Autonomous Multi-Agent Workflows Under Goal-Divergence Scenarios
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23200414-blue.svg)](https://doi.org/10.5281/zenodo.23200414)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23268414-blue.svg)](https://zenodo.org/records/23268414)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![Paper: Zenodo Open Science](https://img.shields.io/badge/Paper-Zenodo%20CERN-red.svg)](https://doi.org/10.5281/zenodo.23200414)
+[![Paper: Zenodo Open Science](https://img.shields.io/badge/Paper-Zenodo%20CERN-red.svg)](https://zenodo.org/records/23268414)
 [![Reproducibility: 100%](https://img.shields.io/badge/Reproducibility-100%25%20Verified-brightgreen.svg)](scripts/run_benchmark.py)
 [![Test Suite](https://img.shields.io/badge/Tests-8%2F8%20Passing-brightgreen.svg)](tests/test_benchmark.py)
 [![arXiv Submission](https://img.shields.io/badge/arXiv%20Bundle-Ready%20(392%20KB)-orange.svg)](paper/arxiv_submission.tar.gz)
@@ -212,10 +212,10 @@ If you use this benchmark harness, dataset, or dual-layer guardrail in your acad
 ```bibtex
 @article{waris2026guardraildegradation,
   title={Quantifying Safety Guardrail Degradation in Autonomous Multi-Agent Workflows Under Goal-Divergence Scenarios},
-  author={Waris, Talha},
-  journal={arXiv preprint arXiv:2610.XXXXX},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI},
+  author={Waris, Muhammad Talha},
+  journal={Zenodo},
+  doi={10.5281/zenodo.23268414},
+  url={https://zenodo.org/records/23268414},
   year={2026}
 }
 ```
